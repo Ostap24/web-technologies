@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гра Клікер</title>
+</head>
+<body>
+<h1>Гра Клікер</h1>
+
+<label for="difficulty">Виберіть складність:</label>
+<select id="difficulty">
+    <option value="">Оберіть складність</option>
+    <option value="lazy">Lazy</option>
+    <option value="normal">Normal</option>
+    <option value="hard">Catch me if you can</option>
+</select>
+
+<br><br>
+
+<label for="color">Виберіть колір квадратика:</label>
+<select id="color">
+    <option value="">Оберіть колір</option>
+    <option value="red">Червоний</option>
+    <option value="green">Зелений</option>
+    <option value="blue">Синій</option>
+</select>
+
+<br><br>
+
+<button id="startButton">Start</button>
+
+<div id="gameContainer">
+    <div id="score">Очки: 0</div>
+    <div id="timer">Час: 0</div>
+    <div id="square"></div>
+</div>
+
+<div id="message"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

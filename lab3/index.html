@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практична робота з об'єктами JavaScript</title>
+</head>
+<body>
+<h1>Практична робота з об'єктами JavaScript</h1>
+
+<script type="module">
+    import { car1 } from './transport/car1.js';
+    import { car2 } from './transport/car2.js';
+    import { Truck } from './transport/truck.js';
+
+    car1.drive();
+    car2.drive();
+
+    var truck1 = new Truck("green", 5000, 80, "Volvo", "FH16");
+    var truck2 = new Truck("yellow", 4500, 85, "Mercedes", "Actros");
+
+    truck1.AssignDriver("Alex P.", true, 10);
+    truck2.AssignDriver("John D.", false, 5);
+
+    truck1.trip();
+    truck2.trip();
+
+    // ------------------------------
+
+    import Square  from './figures/Square.js';
+    import Rectangle from './figures/Rectangle.js';
+    import Rhombus from './figures/Rhombus.js';
+    import Parallelogram from './figures/Parallelogram.js';
+    import Triangular from './another-function/Triangular.js';
+    import PiMultiplier from './another-function/PiMultiplier.js';
+    import Painter from './another-function/Painter.js';
+
+    const square = new Square(4);
+    const rectangle = new Rectangle(4, 6);
+    const rhombus = new Rhombus(5, 60, 120);
+    const parallelogram = new Parallelogram(4, 6, 60, 120);
+
+    Square.help();
+    Rectangle.help();
+    Rhombus.help();
+    Parallelogram.help();
+
+    square.info();
+    rectangle.info();
+    rhombus.info();
+    parallelogram.info();
+
+    const tri1 = Triangular();
+    const tri2 = Triangular(5, 12, 13);
+    console.log(tri1, tri2);
+
+    const multiplyBy2 = PiMultiplier(2);
+    const multiplyBy3Over2 = PiMultiplier(3 / 2);
+    const divideBy2 = PiMultiplier(1 / 2);
+    console.log(multiplyBy2(), multiplyBy3Over2(), divideBy2());
+
+    const paintBlue = Painter('Blue');
+    const paintRed = Painter('Red');
+    const paintYellow = Painter('Yellow');
+
+    const obj1 = { maxSpeed: 280, type: 'Truck' };
+    const obj2 = { maxSpeed: 180, type: 'Sportcar' };
+    const obj3 = { avgSpeed: 90, color: 'Purple' };
+
+    paintBlue(obj1);
+    paintRed(obj2);
+    paintYellow(obj3);
+
+</script>
+</body>
+</html>
