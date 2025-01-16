@@ -77,7 +77,3 @@ function triangle(value1, type1, value2, type2) {
 
     return "success";
 }
-
-triangle(7, "leg", 18, "hypotenuse");
-triangle(60, "opposite angle", 5, "leg");
-triangle(43.13, "angle", -2, "hypotenuse");
