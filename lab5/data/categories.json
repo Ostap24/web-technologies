@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Electronics",
+    "shortname": "electronics",
+    "notes": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "id": 2,
+    "name": "Furniture",
+    "shortname": "furniture",
+    "notes": "Lorem ipsum dolor sit amet"
+  },
+  {
+    "id": 3,
+    "name": "Clothing",
+    "shortname": "clothing",
+    "notes": "Lorem ipsum dolor sit amet"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "T-shirt",
+    "shortname": "tshirt",
+    "description": "Comfortable cotton T-shirt",
+    "price": "25 USD",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 2,
+    "name": "Jeans",
+    "shortname": "jeans",
+    "description": "Stylish denim jeans",
+    "price": "50 USD",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 3,
+    "name": "Jacket",
+    "shortname": "jacket",
+    "description": "Warm winter jacket",
+    "price": "120 USD",
+    "image": "https://place-hold.it/200x200"
+  }
+]

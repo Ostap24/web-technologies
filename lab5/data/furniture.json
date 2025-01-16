@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Sofa",
+    "shortname": "sofa",
+    "description": "Comfortable 3-seater sofa",
+    "price": "600 USD",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 2,
+    "name": "Dining Table",
+    "shortname": "dining_table",
+    "description": "Elegant wooden dining table",
+    "price": "350 USD",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 3,
+    "name": "Bookshelf",
+    "shortname": "bookshelf",
+    "description": "Modern wooden bookshelf",
+    "price": "150 USD",
+    "image": "https://place-hold.it/200x200"
+  }
+]

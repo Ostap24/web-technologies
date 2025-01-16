@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop",
+    "shortname": "laptop",
+    "description": "High performance laptop",
+    "price": "1200 USD",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "shortname": "smartphone",
+    "description": "Latest model smartphone",
+    "price": "800 USD",
+    "image": "https://place-hold.it/200x200"
+  },
+  {
+    "id": 3,
+    "name": "Smartwatch",
+    "shortname": "smartwatch",
+    "description": "Fitness tracking smartwatch",
+    "price": "250 USD",
+    "image": "https://place-hold.it/200x200"
+  }
+]
